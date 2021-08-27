@@ -1,8 +1,8 @@
 class Unidade_federativa:
 
     def __init__(self):
-        self.lista_uf = []
-        self.uf = ''
+        self.__lista_uf = []
+        self.__uf = ''
 
         self.lista_uf = ['SantaCatarina-SC',
                          'SãoPaulo-SP',
@@ -11,7 +11,7 @@ class Unidade_federativa:
 
 
     def get_lista_uf(self):
-        return self.lista_uf
+        return self.__lista_uf
 
     def get_uf(self):
-        return self.uf
+        return self.__uf
