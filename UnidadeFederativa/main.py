@@ -4,4 +4,3 @@ def listar():
     Unidade_federativa.get_lista_uf()
 
 listar()
-
