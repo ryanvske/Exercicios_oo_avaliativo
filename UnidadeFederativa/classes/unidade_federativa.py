@@ -6,7 +6,7 @@ class Unidade_federativa:
     @staticmethod
     def get_uf():
         ufs =['Santa_Catarina-SC', 'Sao_Paulo-SP', 'Rio_de_Janeiro-RJ']
-        uf=input('Qual UF devo retornar?')
+        uf=input('Qual UF devo retornar?>')
 
         if (uf=='SC'):
             print(ufs[0])
