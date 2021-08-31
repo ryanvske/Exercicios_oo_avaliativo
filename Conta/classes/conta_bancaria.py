@@ -6,6 +6,3 @@ class Conta_bancaria:
         self.numero = numero
         self.cpf = cpf
 
-    def set_nome(self):
-        input('Nome:')
-        return
