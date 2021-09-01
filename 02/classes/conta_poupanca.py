@@ -7,7 +7,4 @@ class Conta_poupanca:
         self.limite = limite
         self.saldo = saldo
 
-    def cadastrar_poupanca(self):
-        input('Nome:')
-        input('Número:')
-        input('cpf')
+
