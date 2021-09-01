@@ -7,5 +7,7 @@ class Conta_bancaria:
         self.cpf = cpf
         self.limite = limite
         self.saldo = saldo
-        
+
+    def depositar(self):
+        input('Quanto deseja depositar?>')
 

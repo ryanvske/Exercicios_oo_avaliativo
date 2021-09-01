@@ -12,5 +12,9 @@ print()
 
 escolha_menu = input('Número:')
 
-
-
+if escolha_menu == '1':
+    Conta_poupanca.cadastrar_poupanca(str)
+if escolha_menu == '2':
+    Conta_corrente.cadastrar_corrente(str)
+if escolha_menu == '4':
+    Conta_bancaria.depositar(str)

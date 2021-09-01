@@ -7,3 +7,8 @@ class Conta_corrente:
         self.limite = limite
         self.saldo = saldo
 
+    def cadastrar_corrente(self):
+        input('Nome:')
+        input('Número:')
+        input('cpf')
+
