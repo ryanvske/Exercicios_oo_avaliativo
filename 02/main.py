@@ -11,13 +11,17 @@ print('5.Fazer saque')
 print()
 
 escolha_menu = input('Número:')
+print()
 
 if escolha_menu == '1':
     Conta_bancaria.cadastrar_poupanca(str)
 if escolha_menu == '2':
     Conta_bancaria.cadastrar_corrente(str)
+if escolha_menu == '3':
+    Conta_bancaria.aumentar_limite(str)
 if escolha_menu == '4':
     Conta_bancaria.depositar(str)
+if escolha_menu == '5':
+    Conta_bancaria.sacar(str)
 else:
-    print('Opção não encontrada no menu.')
-
+    print('Opção no menu não encontrada.')
