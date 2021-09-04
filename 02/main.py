@@ -8,20 +8,24 @@ print('2.Cadastrar conta corrente')
 print('3.Aumentar limite')
 print('4.Realizar deposito')
 print('5.Fazer saque')
+print('6.Listar contas poupança')
+print('0.Sair')
 print()
 
-escolha_menu = input('Número:')
-print()
+while True:
+    escolha_menu = input('Número:')
+    print()
 
-if escolha_menu == '1':
-    Conta_bancaria.cadastrar_poupanca(str)
-if escolha_menu == '2':
-    Conta_bancaria.cadastrar_corrente(str)
-if escolha_menu == '3':
-    Conta_bancaria.aumentar_limite(str)
-if escolha_menu == '4':
-    Conta_bancaria.depositar(str)
-if escolha_menu == '5':
-    Conta_bancaria.sacar(str)
-else:
-    print('Opção no menu não encontrada.')
+    if escolha_menu == '1':
+        Conta_bancaria.cadastrar_poupanca(str)
+    elif escolha_menu == '2':
+        Conta_bancaria.cadastrar_corrente(str)
+    elif escolha_menu == '3':
+        Conta_bancaria.aumentar_limite(str)
+    elif escolha_menu == '4':
+        Conta_bancaria.depositar(str)
+    elif escolha_menu == '5':
+        Conta_bancaria.sacar(str)
+    elif escolha_menu == '0':
+        break
+
